@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { AuthService } from 'src/app/guards/auth.service';
+import { AuthService } from '../../guards/auth.service';
 
 @Component({
   selector: 'app-guest-layout',
